@@ -4,7 +4,7 @@ export const DATA = [
     {
         id: 0,
         name: "Nike Metcon 4",
-        img: images.nikeMetcon4,
+        img: images.adidas1,
         bgColor: "#414045",
         type: "TRAINING",
         price: "$119",
@@ -13,7 +13,7 @@ export const DATA = [
     {
         id: 1,
         name: "Nike Metcon 6",
-        img: images.nikeMetcon6,
+        img: images.adidas2,
         bgColor: "#4EABA6",
         type: "TRAINING",
         price: "$135",
@@ -22,7 +22,7 @@ export const DATA = [
     {
         id: 2,
         name: "Nike Metcon 5",
-        img: images.nikeMetcon5Purple,
+        img: images.adidas3,
         bgColor: "#2B4660",
         type: "TRAINING",
         price: "$124",
@@ -31,7 +31,7 @@ export const DATA = [
     {
         id: 3,
         name: "Nike Metcon 3",
-        img: images.nikeMetcon3,
+        img: images.adidas4,
         bgColor: "#A69285",
         type: "TRAINING",
         price: "$99",
@@ -40,7 +40,7 @@ export const DATA = [
     {
         id: 4,
         name: "Nike Metcon Free",
-        img: images.nikeMetconFree,
+        img: images.adidas5,
         bgColor: "#A02E41",
         type: "TRAINING",
         price: "$108",
@@ -49,7 +49,7 @@ export const DATA = [
     {
         id: 5,
         name: "Nike Air Zoom Pegasus 36",
-        img: images.nikePegasus36,
+        img: images.adidas6,
         bgColor: "#BF012C",
         type: "RUNNING",
         price: "$186",
@@ -58,7 +58,7 @@ export const DATA = [
     {
         id: 6,
         name: "Nike Metcon 5",
-        img: images.nikeMetcon5Black,
+        img: images.adidas7,
         bgColor: "#D39C67",
         type: "TRAINING",
         price: "$135",
@@ -67,7 +67,7 @@ export const DATA = [
     {
         id: 7,
         name: "Nike Air Zoom Kobe 1 Proto",
-        img: images.nikeZoomKobe1Proto,
+        img: images.adidas8,
         bgColor: "#7052A0",
         type: "BASKETBALL",
         price: "$199",

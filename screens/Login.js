@@ -16,57 +16,48 @@ import logo from "../assets/images/logo.jpg";
 
 export default function Login({ navigation }) {
   const [securePassword, setSecurePassword] = useState(true);
-  let opacityValue = new Animated.Value(0)
-  let imageValue = new Animated.Value(0)
-  let heightValue = new Animated.Value(0)
+  let opacityValue = new Animated.Value(0);
+  let imageValue = new Animated.Value(0);
+  let heightValue = new Animated.Value(0);
 
-  Animated.timing(
-    opacityValue,
-    {
-      toValue: 1,
-      duration: 500,
-      delay: 200,
-      easing: Easing.linear,
-      useNativeDriver: true
-    }
-  ).start();
+  Animated.timing(opacityValue, {
+    toValue: 1,
+    duration: 500,
+    delay: 200,
+    easing: Easing.linear,
+    useNativeDriver: true,
+  }).start();
 
-  Animated.timing(
-    imageValue,
-    {
-      toValue: 1,
-      duration: 300,
-      delay: 850,
-      easing: Easing.linear,
-      useNativeDriver: true
-    }
-  ).start();
+  Animated.timing(imageValue, {
+    toValue: 1,
+    duration: 300,
+    delay: 850,
+    easing: Easing.linear,
+    useNativeDriver: true,
+  }).start();
 
-  Animated.timing(
-    heightValue,
-    {
-      toValue: 1,
-      duration: 350,
-      delay: 50,
-      easing: Easing.linear,
-      useNativeDriver: true
-    }
-  ).start();
+  Animated.timing(heightValue, {
+    toValue: 1,
+    duration: 350,
+    delay: 50,
+    easing: Easing.linear,
+    useNativeDriver: true,
+  }).start();
 
   const opacity = opacityValue.interpolate({
     inputRange: [0, 1],
-    outputRange: [0, 1]
-  })
+    outputRange: [0, 1],
+  });
 
   const image = imageValue.interpolate({
     inputRange: [0, 1],
-    outputRange: [0, 1]
-  })
+    outputRange: [0, 1],
+  });
 
   const height = heightValue.interpolate({
     inputRange: [1, 2],
     outputRange: [0, -150],
-  })
+  });
 
   return (
     <View style={{ flex: 1, backgroundColor: "#12171b" }}>
@@ -87,13 +78,15 @@ export default function Login({ navigation }) {
           styles.body,
           {
             opacity: opacity,
-            transform: [{
-              translateY: height,
-            }],
-          }
+            transform: [
+              {
+                translateY: height,
+              },
+            ],
+          },
         ]}
       >
-        <Text style={{ ...FONTS.h1 }}>Nike Store</Text>
+        <Text style={{ ...FONTS.h1 }}>Adidas Store</Text>
         <View style={{ marginVertical: 40 }}>
           <View style={{ marginVertical: 5 }}>
             <Text style={styles.inputLabel}>Email</Text>
@@ -152,6 +145,15 @@ const styles = StyleSheet.create({
     borderTopRightRadius: 20,
     padding: 20,
     paddingTop: 40,
+    shadowColor: "#000",
+    shadowOffset: {
+      width: 0,
+      height: 5,
+    },
+    shadowOpacity: 0.29,
+    shadowRadius: 4.65,
+
+    elevation: 7,
   },
   input: {
     marginVertical: 10,

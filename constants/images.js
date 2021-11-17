@@ -1,22 +1,21 @@
-export const nikeMetcon3 = require("../assets/images/nike-metcon-3.png");
-export const nikeMetcon4 = require("../assets/images/nike-metcon-4.png");
-export const nikeMetcon5Black = require("../assets/images/nike-metcon-5-black.png");
-export const nikeMetcon5Purple = require("../assets/images/nike-metcon-5-purple.png");
-export const nikeMetcon6 = require("../assets/images/nike-metcon-6.png");
-export const nikeMetconFree = require("../assets/images/nike-metcon-free.png");
-export const nikePegasus36 = require("../assets/images/nike-pegasus-36.png");
-export const nikeZoomKobe1Proto = require("../assets/images/nike-zoom-kobe-1-protro.png");
+export const adidas1 = require("../assets/images/adidas-1.jpg");
+export const adidas2 = require("../assets/images/adidas-2.jpg");
+export const adidas3 = require("../assets/images/adidas-3.webp");
+export const adidas4 = require("../assets/images/adidas-4.jpg");
+export const adidas5 = require("../assets/images/adidas-5.jpg");
+export const adidas6 = require("../assets/images/adidas-6.jpg");
+export const adidas7 = require("../assets/images/adidas-7.jpg");
+export const adidas8 = require("../assets/images/adidas-8.jpg");
 export const recentlyViewedLabel = require("../assets/images/recently-viewed-label.png");
 
-
 export default {
-    nikeMetcon3,
-    nikeMetcon4,
-    nikeMetcon5Black,
-    nikeMetcon5Purple,
-    nikeMetcon6,
-    nikeMetconFree,
-    nikePegasus36,
-    nikeZoomKobe1Proto,
+    adidas1,
+    adidas2,
+    adidas3,
+    adidas4,
+    adidas5,
+    adidas6,
+    adidas7,
+    adidas8,
     recentlyViewedLabel
 }
